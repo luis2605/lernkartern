@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/lernkartern/static/css/main.3bd592b6.css",
+    "main.js": "/lernkartern/static/js/main.cbcaa9fb.js",
+    "static/js/787.baa6cb43.chunk.js": "/lernkartern/static/js/787.baa6cb43.chunk.js",
+    "static/media/img4a.jpeg": "/lernkartern/static/media/img4a.557182dfce4707ce7e9f.jpeg",
+    "static/media/img3.jpeg": "/lernkartern/static/media/img3.c5e906f8236de6316565.jpeg",
+    "static/media/img3a.jpeg": "/lernkartern/static/media/img3a.87a1bb3a80a176a042a5.jpeg",
+    "static/media/img7.jpeg": "/lernkartern/static/media/img7.eabf31486f832553ec0c.jpeg",
+    "static/media/img6.jpeg": "/lernkartern/static/media/img6.6ba62f7930e2ea49262b.jpeg",
+    "static/media/img8a.jpeg": "/lernkartern/static/media/img8a.f564a39fe09bcbe61030.jpeg",
+    "static/media/img8.jpeg": "/lernkartern/static/media/img8.3184cb8b5538bb612454.jpeg",
+    "static/media/img1a.jpeg": "/lernkartern/static/media/img1a.e07fddbd06f84ae7d1a0.jpeg",
+    "static/media/img1.jpeg": "/lernkartern/static/media/img1.34e28d257c779c140fe4.jpeg",
+    "static/media/img5.png": "/lernkartern/static/media/img5.23994d4dcfc365bad3d6.png",
+    "static/media/slick.svg": "/lernkartern/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lernkartern/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lernkartern/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lernkartern/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lernkartern/index.html",
+    "main.3bd592b6.css.map": "/lernkartern/static/css/main.3bd592b6.css.map",
+    "main.cbcaa9fb.js.map": "/lernkartern/static/js/main.cbcaa9fb.js.map",
+    "787.baa6cb43.chunk.js.map": "/lernkartern/static/js/787.baa6cb43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd592b6.css",
+    "static/js/main.cbcaa9fb.js"
+  ]
+}
