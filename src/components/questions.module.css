@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   background: rgba(189, 211, 221, 0.8);
   clip-path: polygon(-4% 5%, 96% 1%, 97% 95%, 0% 98%);
 }
@@ -32,7 +33,7 @@ h3 {
 }
 @media (max-width: 425px) {
   .imgQuestion {
-    max-width: 200px;
+    max-width: 30vw;
   }
 }
 
