@@ -9,6 +9,11 @@ import bild72a from "./images/img6.jpeg";
 import bild78a from "./images/img7.jpeg";
 import bild83 from "./images/img8.jpeg";
 import bild83a from "./images/img8a.jpeg";
+import bild84 from "./images/img9.jpeg";
+import bild89 from "./images/img10a.jpeg";
+import bild94a from "./images/img11a.jpeg";
+import bild96a from "./images/img12a.jpeg";
+import bild97a from "./images/img13a.jpeg";
 const QA = [
   {
     id: 47,
@@ -445,6 +450,172 @@ const QA = [
     `,
     img: bild83,
     imga: bild83a,
+  },
+  {
+    id: 84,
+    question: `Welche verkürzte Schreibweise der IPv6-Adresse 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff sind erlaubt ?`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    1. 2001:db8:f3c:d7:7dab:3d0:0:ff - erlaubt
+    2. 2001:db8:f3c:d7:7dab:3d0::ff - erlaubt
+    `,
+    img: bild84,
+    imga: "",
+  },
+  {
+    id: 85,
+    question: `Was versteht man im Netzwerkbereich unter dem Quality of Service ?`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+   Quality of Service (QoS) bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über IP-Netzwerke genutz wird.Spezialle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP unterliegem viele Qualitätsbeeinträchtigungen.
+   Um diesen Qualitätsbeeinträchtigungen wie Latenz, Jitter und Paketverlust entgegenzuwirken, gib es verscheidene Möglichkeiten durch Priorisierung des Datenverkehrs, der Datenratenreservierung, derDatenratenlimitierung sowie durch Paketoptimierung die Güte der Datenkommunikation zu verbessern.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 86,
+    question: `Wann kommt ein tagged VLAN (Virtual Local Area Network) zum Einsatz ?`,
+    level: 2,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+ Das tagged VLAN kommt immer dann zum Einsatz, wenn sich VLANs über mehrere Switches hinweg erstrecken, zum Beispiel über sogenannte Trunk Port.Hier werden die Ethernet-Frames mit einer Art Markierung versehen, welche die Zugehörigkeit zum jeweiligen VLAN kennzeichnet.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 87,
+    question: `Beschreibe die typische Merkmale des Client-Server Modells .`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+   Merkmale : 
+   -Server stellen Dienste bereit.
+   -Clients fragen Dienste bei Servern an.
+   -Kommunikationsregeln und den Informationsaustauch zwischen Client und Server übernehmen Protokolle.
+   -ein Server bedient ein oder mehrere Clients.
+   -die Server-Clientfunktionen sind nicht an eine physische Hardware gebunden.
+   -physische/virtuelle Server können gleichzeitig Client- als auch Serveraufgaben ausführen.
+
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 88,
+    question: `Welche Aufgaben hat ein Domain Name System (DNS) in eine Windows Domänelandschaft bzw. Active Directory  ?`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `Der DNS stellt der wichtigsten Diente in IP-basierte Netzwerken dar.Das Domain Name System dient der Beantwortung von Anfragen zu Namensauflösung.
+    Konkret wird dabei der angefragte Name in eine Ip-Adresse übersetz und als Ergebnis der Anfrage züruck geliefert.In windowsbasierten Domäne kommt zusätzlich der Reverse
+    Lookup Anfrage die Aufgabe zu, eine angefragte Ip-Adresse als Name zu ermitteln und als Ergebnise zurückzuliefern.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 89,
+    question: `Einer der wichtigen Diensten in der IT sind E-Mail Dienste.Es komme verscheidene e-Mailprotokolle dabei zum Einsatz.Unterscheide die Mailingprotokolle IMAP/S, SMTP/S sowie POP3/S nach ihren Eigenschaften.`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    `,
+    img: "",
+    imga: bild89,
+  },
+  {
+    id: 90,
+    question: `Was bedeutet der Begriff Standby, oder Offline- USV ?`,
+    level: 3,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    Die einfachen unterbrechungsfreien Stromversorgungen der USV-Klasse 3 sind Standby- bzw. Offline-USVs.Sie schutzen
+    generell nur gegen Stromausfälle sowie kurzzeitige Spannungsschwankungen.Die Unter- und Überspannungen im Netz können nicht ausgegliechen werden. 
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 91,
+    question: `Was versteht man unter einer Online-USV ?`,
+    level: 3,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    Eine Online-USV (USV-Klasse 1) gilt als die teuerste Variante unter den unterbrechungsfreien Stromversorgungen, sie bietet jedoch auch den umfassendsten Schutz durch permanente Erzeugung einer Sinusspannung am Ausgang.Alle angeschlossenen Verbraucher werden dauerhaft und ohne Einschränkungen mit Netzspannung versorgt, während zeitgleich die Batterie aufgeladen wird. 
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 92,
+    question: ` Was versteht man unter der Bezeichnung Netzinteraktive USV ?`,
+    level: 3,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `USV-Klasse 2 funktionieren ähnlich wie das Standby-USV.Sie schutzen allgemein vor dem Strommausfall sowie vor kurzzeitigen Spannungsspitzen und sind in der Lage
+    , durch Filter Spannungsschwankungen auszugleichen.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 93,
+    question: ` Was  bedeutet der Begriff SSID(Service Set Identifier) ?`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `Die SSID ist laut IEEE(Institute of Electrical and Electronic Engeneers) der Norm 802.11 der frei wählbare Name eines drahtlosen Funknetzwerks.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 94,
+    question: ` Was versteht man unter den Begriffen CMS-, ERP- und CMR-System?`,
+    level: 1,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    `,
+    img: "",
+    imga: bild94a,
+  },
+  {
+    id: 95,
+    question: `WElche Maßnahmen sind geeignet, um die Verarbeitungsgeschwindigkeit eines PC zu verbessern?`,
+    level: 2,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    - Austausch von SATA HDDs mit geringere Umdrehungszahl gegen HDDs mit 10k/rpm.
+    -Einsatz von SSD/M.2 gegenüber SATA-HDDs.
+    -Aufteilung des B/S und der Anwendungsprogramme auf unterschiedlichen Datenträgern.
+    -Austausch 100Mbit/s Netzwerkkarte gegen 1 Gbit/s Karten.
+    `,
+    img: "",
+    imga: "",
+  },
+  {
+    id: 96,
+    question: ` Berechne die Geasmtleistungaufnahme in Kilowatts für folgende IT Landschaft für ein Jahr(24/7 Betrieb):
+    10x Server a 800Watt + 25x Desktop PCs a 350 Watt + 2 Switches a 200Watt.
+    `,
+    level: 3,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    `,
+    img: "",
+    imga: bild96a,
+  },
+  {
+    id: 97,
+    question: ` Wie berechnet man die Wirkleistung von elektrischen Geräten ?
+    `,
+    level: 2,
+    modul: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    answer: `
+    `,
+    img: "",
+    imga: bild97a,
   },
 ];
 export default QA;
